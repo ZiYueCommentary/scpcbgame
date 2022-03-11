@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<base target="_blank">
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<title>SCP - 收容失效 中文网站</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+	</head>
+	
+	<body>
+			
+		<div id="wrapper">
+		
+			<div id="splash">
+				<img src="images/header.png" height="92%" alt="横幅"/>
+			</div>		
+				
+			<div id="header">
+				
+				<div id="menu">
+					<ul>
+						<li class="first current_page_item"><a href="#"><b>主页</b></a></li>
+						<li><a href="info.html" target="_self">关于</a></li>
+						<li><a href="https://ziyuesinicization.site/%E6%94%B6%E5%AE%B9%E5%A4%B1%E6%95%88%E6%B1%89%E5%8C%96%E8%AE%A1%E5%88%92.html" target="_blank">汉化计划</a></li>
+					</ul>
+					<br class="clearfix"/>
+				</div>
+			</div>
+
+			
+			<div id="page">
+				<div id="content">
+					<div class="box" align="center">
+						
+						<p>SCP - 收容失效是一个基于<a href="http://scp-wiki-cn.wikidot.com/" target="_blank">SCP基金会</a>的免费生存恐怖游戏。</p>
+						<p>SCP - 收容失效汉化计划由<a href="https://ziyuesinicization.site/" target="_blank">子悦汉化组</a>制作。</p>
+						
+						<br></br>
+						<h2><b>下载</b></h2>
+												
+						<h2>SCP - 收容失效1.3.11 预发布测试</h2>
+							
+						<iframe width="600" height="180" src="https://www.moddb.com/mods/scp-containment-breach/downloads/scpcb-chinese-prerelease/widget" frameborder="0"></iframe>
+						<br>
+
+						<br></br>				
+						<br>
+						<p>由于收容失效汉化版的大小（约300MB）超出了Github单个文件最大限制（100MB）</p>
+						<p>所以我们无法在站内提供下载服务，感谢您的理解。</p>
+						<br></br>
+
+						<a href="changelog.txt" target="_blank"><span>汉化更新日志</span></li></a>
+						
+						<br></br>
+						<br></br>
+						<br></br>			
+												
+					</div>
+
+					<br class="clearfix" />
+				</div>
+				<div id="sidebar2">
+				
+					<div class="box" align="center" >
+						<h3>链接</h3>
+						
+						<ul class="list">
+							<a href="https://www.undertowgames.com/" title="UndertowGames官网（英文）"><img class="aligntop" src="images/ugbutton.png" width="195" height="50" alt="" /></a>
+						
+							<a href="http://scp-wiki-cn.wikidot.com/" title="SCP基金会官网"><img class="aligntop" src="images/scpf.jpg" width="195" height="50" alt="" /></a>
+							
+							<a href="https://scpcb.gamepedia.com/SCP_-_Containment_Breach_Wiki" title="SCP - 收容失效维基（英文）"><img class="aligntop" src="images/scpw.jpg" width="195" height="50" alt="" /></a>
+							
+							<a href="scp-087-b.html" target="_self"><img class="aligntop" src="images/087b.jpg" width="195" height="50" alt="" /></a>
+
+							<li class="last"> </li>
+							<div align="center">
+							<a href="https://jq.qq.com/?_wv=1027&k=u7Dm0Vc4" title="对外交流群"><img class="alignnone wp-image-571 size-full" src="images/qq.png" alt="" width="64" height="64" /></a>
+							<a href="https://www.moddb.com/company/ziyue-sinicization-group" title="Moddb账号"><img class="alignnone size-medium wp-image-572" src="images/moddb.png" alt="" width="64" height="64" /></a>
+							<a href="mailto:ziyuecommentary@gmail.com" title="子悦邮箱"><img class="alignnone wp-image-570 size-full" src="images/mail.png" alt="" width="64" height="64" /></a>
+							</div>
+							
+							<br></br>
+							
+							<li class="last"> </li>
+							<a href="https://afdian.net/@ziyuecommentary2020" target="_blank"><img src="images/afdian.png" style="border-radius: 5px;" width="100%"></a>
+							<div style="text-align:center;">
+							</div>	
+						</ul>
+					</div>
+					
+				</div>
+				<br class="clearfix" />
+			</div>
+		</div>
+		<div id="footer">
+			&copy; 本页面的内容遵循<a href="https://creativecommons.org/licenses/by-sa/3.0/deed.zh" target="_blank">CC BY-SA 3.0协议</a> | 模板来自<a href="https://www.freecsstemplates.org/" target="_blank">FCT</a>，中文网站由<a href="https://ziyuesinicization.site/" target="_blank">子悦汉化组</a>负责。
+		</div>
+	</body>
+</html>
+
+<script>
+	function Download() {
+        var num = parseInt($("#welcomeDownNums").html());
+        $("#welcomeDownNums").html(num + 1);
+        $.post("${basePath}/welcomeAction_clientDownloadNums.do");//在服务端下载量加1
+		console.log(num);
+    }
+</script>
