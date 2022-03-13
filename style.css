@@ -11,13 +11,13 @@ Released   : 20120813
 
 @font-face {
 	font-family: Containment Breach;
-	src: url(./fonts/收容失效Regular.ttf);
+	src: url(./fonts/收容失效Regular.woff2);
 	font-weight: normal;
 }
 
 @font-face {
 	font-family: Containment Breach;
-	src: url(./fonts/收容失效Bold.ttf);
+	src: url(./fonts/收容失效Bold.woff2);
 	font-weight: bold;
 }
 
