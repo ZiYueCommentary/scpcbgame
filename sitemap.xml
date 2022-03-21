@@ -8,30 +8,32 @@
 
 
 <url>
-  <loc>http://scpcbgame.cn/</loc>
-  <lastmod>2022-03-12T08:11:42+00:00</lastmod>
+  <loc>https://scpcbgame.cn/</loc>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://scpcbgame.cn/info.html</loc>
-  <lastmod>2022-03-12T08:11:42+00:00</lastmod>
+  <loc>https://scpcbgame.cn/index.html</loc>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://scpcbgame.cn/info.html</loc>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://scpcbgame.cn/changelog.txt</loc>
-  <lastmod>2022-03-12T08:11:41+00:00</lastmod>
+  <loc>https://scpcbgame.cn/ultimate.html</loc>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://scpcbgame.cn/scp-087-b.html</loc>
-  <lastmod>2022-03-12T08:11:42+00:00</lastmod>
+  <loc>https://scpcbgame.cn/scp-087-b.html</loc>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://scpcbgame.cn/index.html</loc>
-  <lastmod>2022-03-12T08:11:42+00:00</lastmod>
-  <priority>0.64</priority>
+  <loc>https://scpcbgame.cn/help.html</loc>
+  <priority>0.80</priority>
 </url>
-
+<url>
+  <loc>https://scpcbgame.cn/changelog.txt</loc>
+  <priority>0.50</priority>
+</url>
 
 </urlset>

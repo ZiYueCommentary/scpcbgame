@@ -1,8 +1,3 @@
-2022/3/1 Debug Testing排错测试
--汉化了部分贴图（kneelmortal.pd、chatscreen2.jpg）
--重写了汉化版本
--汉化版本的编码由UTF-8改为ANSI（GB2312）
-
 2022/2/1 Pre-release Testing预发布测试
 -汉化了部分贴图（docGonzales.jpg、doc513.jpg、doc682.jpg、doc714.jpg、map_logo.jpg、doc860.jpg、doc895.jpg、doc939.jpg、badge2.png、decalpd6.png、doc966.jpg、doc970.jpg、doc1048.jpg、doc1048a.jpg、doc1162.jpg、doc1499.png、doc8601.jpg、docAC.jpg、BurntNoteTexture.jpg、docMTF.jpg、1025_1.jpg、1025_2.jpg、1025_3.jpg、1025_4.jpg、1015_5.jpg、KeyPad.jpg、docOBJC.jpg、miscsigns4.jpg、miscsigns.jpg、miscsigns2.jpg、miscsigns3.jpg、miscsigns4.jpg、SLH_miscsigns.jpg、KeyPadHUD.jpg、docRP.jpg、docSC.jpg、ticket.png、860.jpg、rosewood.sc、conf.jpg、Nordy.jpg）
 -汉化了Rmesh模型读取工具（独立工具）

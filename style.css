@@ -21,6 +21,12 @@ Released   : 20120813
 	font-weight: bold;
 }
 
+hr.hr{
+	height:15px;
+	border:none;
+	border-top:1px dotted #404040;
+}
+
 * {
 	padding: 0;
 	margin: 0;
@@ -35,7 +41,6 @@ body {
 
 body,input {
 	font-family: Containment Breach, Courier, monospace;
-	src:url()
 }
 
 br.clearfix {
