@@ -1,0 +1,96 @@
+@font-face {
+	font-family: Containment Breach;
+	src: url(../fonts/收容失效Regular.woff2);
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: Containment Breach;
+	src: url(../fonts/收容失效Bold.woff2);
+	font-weight: bold;
+}
+
+body {
+  background-color: black;
+  background-image: url(../images/img01.gif);
+  background-repeat: repeat-x;
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+h1 {
+  width: 854px;
+  margin: 0 auto;
+  font-family: Containment Breach, monospace;
+  font-size: xx-large;
+  color: white;
+}
+h2 {
+  width: 854px;
+  margin: 0 auto;
+  font-family: Containment Breach, monospace;
+  font-size: x-large;
+  color: white;
+}
+p {
+  width: 854px;
+  margin: 0 auto;
+  font-family: Containment Breach, monospace;
+  font-size: medium;
+  text-align: justify;
+  color: white;
+}
+li {
+  width: 814px;
+  margin: 0 auto;
+  font-family: Containment Breach, monospace;
+  font-size: medium;
+  text-align: justify;
+  color: white;
+}
+a:link {
+  color: pink;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+#footer {
+  background: #3E3E3E;
+  color: white;
+  padding: 15px;
+  clear: left;
+  font-family: "DejaVu Sans Mono", monospace;
+}
+#cookie-parent {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+#cookie-banner {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  min-height: 180px;
+}

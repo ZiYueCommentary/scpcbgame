@@ -1,6 +1,4 @@
-document.write("<br>");
-document.write("<hr class=\"hr\">");
-document.write("<p><a href=\"javascript:void(0);\" onclick=\"zh_tran('false');\" target=\"_self\">简体中文</a> | <a href=\"javascript:void(0);\" onclick=\"zh_tran('true');\" target=\"_self\">繁体中文</a></p>");
+document.write("<a href=\"javascript:void(0);\" onclick=\"zh_tran('false');\" target=\"_self\">简体中文</a> | <a href=\"javascript:void(0);\" onclick=\"zh_tran('true');\" target=\"_self\">繁体中文</a>");
 // 网页简繁体转换
     // 本js用于客户在网站页面选择繁体中文或简体中文显示，默认是正常显示，即简繁体同时显示
     // 在用户第一次访问网页时,会自动检测客户端语言进行操作并提示.此功能可关闭
