@@ -1,4 +1,20 @@
+
 document.write("<a href=\"javascript:void(0);\" onclick=\"zh_tran('false');\" target=\"_self\">简体中文</a> | <a href=\"javascript:void(0);\" onclick=\"zh_tran('true');\" target=\"_self\">繁体中文</a>");
+document.write("<br><br><audio controls autoplay='autoplay' width=100% ><source src=\"music.mp3\"></audio>");
+document.write("<br><br><img src=\"scp-173.gif\" width=100% style=\"border-radius:5%;\">");
+const gitalk = new Gitalk({
+    clientID: '2f33d921f1dd23a3bb28',
+    clientSecret: 'd01d8663dc1a2de176d747ca4fd60344f2b117d5',
+    repo: 'scpcbgame',      // The repository of store comments,
+    number: 1,
+    owner: 'ZiYueCommentary',
+    admin: ['ZiYueCommentary'],
+    id: location.pathname,      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+  
+  gitalk.render('gitalk-container');
+
 // 网页简繁体转换
     // 本js用于客户在网站页面选择繁体中文或简体中文显示，默认是正常显示，即简繁体同时显示
     // 在用户第一次访问网页时,会自动检测客户端语言进行操作并提示.此功能可关闭

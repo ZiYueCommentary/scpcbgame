@@ -37,6 +37,17 @@ h2 {
   font-size: x-large;
   color: white;
 }
+.spoiler_boy { 
+  border:1px solid white;
+  line-height: 130%;
+  font-family: Containment Breach, monospace;
+  color: white;display:inline-block;
+}
+h3 {
+  font-family: Containment Breach, monospace;
+  font-weight: normal;
+  color: white;
+}
 p {
   width: 854px;
   margin: 0 auto;
@@ -82,15 +93,4 @@ a:active {
   padding: 15px;
   clear: left;
   font-family: "DejaVu Sans Mono", monospace;
-}
-#cookie-parent {
-  position: sticky;
-  top: 0;
-  z-index: 1;
-}
-#cookie-banner {
-  position: absolute;
-  left: 0;
-  width: 100%;
-  min-height: 180px;
 }
