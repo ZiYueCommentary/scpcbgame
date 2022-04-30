@@ -1,3 +1,28 @@
+2022/5/1 Second Phase Tehnical Testing二期技术测试
+不兼容其他任何版本的存档
+- 再次重写了汉化
+- 汉化了部分贴图（docStrange.jpg、notetexture.jpg、badge1_tex.jpg）
+- 更新了部分贴图的汉化（docRP.jpg、badge1.jpg、doc427.jpg、doc106_2.jpg、docRAND3.jpg）
+- 将游戏引擎从Blitz3D改为Blitz3D TSS，使以下成为可能：
+    - 使用输入法输入中文
+    - 解决高速渲染文字时的延迟
+    - 不使用插件渲染中文
+- 汉化了地图制作器
+- 重新实现了更新检查系统
+- 汉化版的编码由ANSI改为UTF-8
+- 删除了“收容失效微维基”
+- 删除了“已知问题解答.html”
+- 删除了SpeedText插件
+- 修复了净化气体不渲染的bug
+- “致二创开发者.txt”合并至README.md内
+- 重写了物品中文名的实现方式
+- 汉化了原版更新日志的部分日志（v0.5.2-v0.6.5）
+- 文字抗锯齿不再应用
+- 修复了SCP-500文档贴图的后缀错误
+- 修复了提示框高度的问题
+- psd存档被集中储存（暂时删除）
+技术上更新：AAText库被删除，改为使用引擎的Text渲染文字
+
 2022/4/1 First Phase Testing一期测试
 - 汉化了部分贴图（kneelmortal.pd、chatscreen2.jpg）
 - 重写了汉化版本
