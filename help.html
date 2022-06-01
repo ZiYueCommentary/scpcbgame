@@ -41,19 +41,19 @@
 					<div class="box">
 						<h2>SCP - 收容失效 常见问题解决方案</h2>
 						<hr class="hr">
-						<article>
+						<article id="debughud">
 							<h3>启用debughud后帧数下降</h3>
 							<p>下载<b>二期技术测试</b>或更新的汉化版</p>
 						</article>
-						<article>
+						<article id="directplay">
 							<h3>启动游戏时出现错误0xc00000022</h3>
 							<p>1. 用Win+R打开“运行...”窗口，输入“OptionalFeatures”。</p>
-							<p>2. 在弹出的窗口中展开“旧版组件”列表，勾选“DirectPlay”的复选框。</p>
+							<p>2. 在弹出的窗口中展开“旧版组件”列表，勾选“DirectPlay”的复选框。<a class="group" href="images/directplay.png">图片示例</a></p>
 							<p>3. 点击“确定”即可，可能需要重启电脑。</p>
-							<p><a class="group" href="images/directplay.png">图片示例</a></p>
 						</article>
-						<article>
-							<h3>运行错误“内存访问冲突”（Memory Access Violation）或“无法设置显示模式”（Unable to set graphics mode）</h3>
+						<article id="mav">
+							<h3>运行错误“内存访问冲突”（Memory Access Violation）</h3>
+							<p>- 清空Saves文件夹</p>
 							<p>- 以管理员身份运行</p>
 							<p>- 检查你的显卡驱动更新</p>
 							<p>- 尝试不同的分辨率或全屏运行</p>
@@ -61,14 +61,28 @@
 							<p>- 确保计算机上有至少4GB的运行内存（游戏需要约1.5GB）</p>
 							<p>- 使用<a href="https://www.moddb.com/downloads/secure-4gb-patch-for-windows">4GB_patch</a></p>
 						</article>
-						<article>
+						<article id="graphicsmode">
+							<h3>运行错误“无法设置显示模式”（Unable to set graphics mode）</h3>
+							<p>见<a href="#mav" target="_self">运行错误“内存访问冲突”（Memory Access Violation）</a>。</p>
+						</article>
+						<article id="b3d2rmesh">
 							<h3>游戏中地图建模消失</h3>
 							<p>重新下载汉化版即可</p>
 						</article>
-						<article>
+						<article id="xp">
 							<h3>无法定位程序输入点 _except_handler4_common 于动态链接库 msvcrt.dll 上</h3>
 							<p>- 使用<a href="https://www.moddb.com/downloads/secure-4gb-patch-for-windows">4GB_patch</a></p>
 							<p>- 升级你的Windows系统</p>
+						</article>
+						<article id="vram">
+							<h3>建模闪烁，同时帧数下降</h3>
+							<p>- 切换“在VRAM中存储贴图”选项</p>
+							<p>- 调低“纹理细节层次”</p>
+							<p>- 降低“粒子数量”</p>
+						</article>
+						<article id="intro">
+							<h3>序章牢房中文档不刷新</h3>
+							<p>未知问题，尝试重新开始新游戏</p>
 						</article>
 					</div>
 					<br class="clearfix" />
@@ -85,7 +99,7 @@
 							
 							<a href="ultimate.html" title="浅陌菌制作的终极版汉化" target="_self"><img class="aligntop" src="images/ultimate.png" width="195" height="50" alt="" /></a>
 
-							<a href="scp-087-b.html" target="_self"><img class="aligntop" src="images/087b.jpg" width="195" height="50" alt="" /></a>
+							<a href="https://scpcb.fandom.com/zh/wiki/SCP_-_%E6%94%B6%E5%AE%B9%E5%A4%B1%E6%95%88_%E4%B8%AD%E6%96%87%E7%BB%B4%E5%9F%BA"><img class="aligntop" src="images/scpw.jpg" width="195" height="50" alt="" /></a>
 
 							<br></br>
 							
