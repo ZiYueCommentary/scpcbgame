@@ -18,9 +18,7 @@
 	</head>
 	
 	<body>
-			
 		<div id="wrapper">
-		
 			<div id="splash">
 				<img src="images/header.png" height="92%" alt="横幅"/>
 			</div>		
@@ -61,7 +59,10 @@
 						<p>所以我们无法在站内提供下载服务，感谢您的理解。</p>
 						<br></br>
 
-						<p><a href="changelog.txt">汉化更新日志</a> | <a href="help.html" target="_self">常见问题解决方案</a> | <a href="https://www.scpcbgame.com/">英文官方网站</a> | <a href="sitemap.html" target="_self">网站站点地图</a> | <a href="http://forum.ziyuesinicization.site/" target="_blank">汉化组官方论坛</a></p>							
+						<div style="white-space: nowrap;">
+							<a href="changelog.txt">汉化更新日志</a> | <a href="help.html" target="_self">常见问题解决方案</a> | <a href="https://www.scpcbgame.com/">英文官方网站</a> | <a href="" id="links" class="spoiler_links">展开</a>
+							<div class="spoiler_body" align="center"><a href="https://undertowgames.com/file/scp/SCP%20-%20Containment%20Breach%20v1.3.11.zip">英文原版下载</a> | <a href="sitemap.html" target="_self">网站站点地图</a> | <a href="http://forum.ziyuesinicization.site/">汉化组官方论坛</a></div>
+						</div>
 					</div>
 
 					<br class="clearfix" />
@@ -105,4 +106,19 @@
 			&copy; 本页面的内容遵循<a href="https://creativecommons.org/licenses/by-sa/3.0/deed.zh">CC BY-SA 3.0协议</a> | 模板来自<a href="https://www.freecsstemplates.org/">FCT</a>，中文网站由<a href="https://ziyuesinicization.site/">子悦汉化组</a>负责。
 		</div>
 	</body>
+
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.spoiler_links').click(function(){
+				$(this).parent().children('div.spoiler_body').toggle('normal');
+				document.getElementById('links').innerText = (document.getElementById('links').innerText == "展开" ? "收起" : "展开");
+				return false;
+			});
+		});
+	</script>
+	<style type="text/css">
+		.spoiler_body {display:none;}
+		.spoiler_links {cursor:pointer;}
+	</style>
 </html>

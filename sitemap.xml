@@ -12,6 +12,10 @@
   <priority>1.00</priority>
 </url>
 <url>
+  <loc>http://ntf.scpcbgame.cn/</loc>
+  <priority>1.00</priority>
+</url>
+<url>
   <loc>https://scpcbgame.cn/index.html</loc>
   <priority>1.00</priority>
 </url>
