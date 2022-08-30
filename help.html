@@ -3,8 +3,11 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<style>
-		p{
+		p {
 			line-height: 30%;
+		}
+		h3 a:link {
+			text-decoration: none;
 		}
 	</style>
 	<head>
@@ -15,8 +18,6 @@
 		<link rel="stylesheet" type="text/css" href="style.css" />
 	</head>
 	<body>
-	
-			
 		<div id="wrapper">
 		
 			<div id="splash">
@@ -24,7 +25,6 @@
 			</div>		
 				
 			<div id="header">
-				
 				<div id="menu">
 					<ul>
 						<li><a href="index.html" target="_self">主页</b></li>
@@ -42,22 +42,22 @@
 						<h2>SCP - 收容失效 常见问题解决方案</h2>
 						<hr class="hr">
 						<article id="debughud">
-							<h3>启用debughud后帧数下降</h3>
+							<h3><a href="#debughud" target="_self">启用debughud后帧数下降</a></h3>
 							<p>下载<b>二期技术测试</b>或更新的汉化版</p>
 						</article>
 						<article id="update">
-							<h3>汉化版升级？</h3>
+							<h3><a href="#update" target="_self">汉化版升级？</a></h3>
 							<p>- 下载最新版汉化，解压到新文件夹内</p>
 							<p>- 如果需要保留存档，将原汉化的Saves文件夹复制至新汉化文件夹内即可</p>
 						</article>
 						<article id="directplay">
-							<h3>启动游戏时出现错误0xc00000022</h3>
+							<h3><a href="#directplay" target="_self">启动游戏时出现错误0xc00000022</a></h3>
 							<p>1. 用Win+R打开“运行...”窗口，输入“OptionalFeatures”。</p>
 							<p>2. 在弹出的窗口中展开“旧版组件”列表，勾选“DirectPlay”的复选框。<a class="group" href="images/directplay.png">图片示例</a></p>
 							<p>3. 点击“确定”即可，可能需要重启电脑。</p>
 						</article>
 						<article id="mav">
-							<h3>运行错误“内存访问冲突”（Memory Access Violation）</h3>
+							<h3><a href="#mav" target="_self">运行错误“内存访问冲突”（Memory Access Violation）</a></h3>
 							<p>- 清空Saves文件夹</p>
 							<p>- 以管理员身份运行</p>
 							<p>- 检查你的显卡驱动更新</p>
@@ -67,38 +67,47 @@
 							<p>- 使用<a href="https://www.moddb.com/downloads/secure-4gb-patch-for-windows">4GB_patch</a></p>
 						</article>
 						<article id="graphicsmode">
-							<h3>运行错误“无法设置显示模式”（Unable to set graphics mode）</h3>
+							<h3><a href="#update" target="_self">运行错误“无法设置显示模式”（Unable to set graphics mode）</a></h3>
 							<p>见<a href="#mav" target="_self">运行错误“内存访问冲突”（Memory Access Violation）</a>。</p>
 						</article>
-						<article id="b3d2rmesh">
-							<h3>游戏中地图建模消失</h3>
-							<p>重新下载汉化版即可</p>
+						<article id="rmesh">
+							<h3><a href="#rmesh" target="_self">游戏中地图建模消失</a></h3>
+							<p>重新下载汉化版</p>
 						</article>
 						<article id="xp">
-							<h3>无法定位程序输入点 _except_handler4_common 于动态链接库 msvcrt.dll 上</h3>
+							<h3><a href="#xp" target="_self">无法定位程序输入点 _except_handler4_common 于动态链接库 msvcrt.dll 上</a></h3>
 							<p>- 使用<a href="https://www.moddb.com/downloads/secure-4gb-patch-for-windows">4GB_patch</a></p>
 							<p>- 升级你的Windows系统</p>
 						</article>
 						<article id="vram">
-							<h3>建模闪烁，同时帧数下降</h3>
+							<h3><a href="#vram" target="_self">建模闪烁</a></h3>
 							<p>- 切换“在VRAM中存储贴图”选项</p>
 							<p>- 调低“纹理细节层次”</p>
 							<p>- 降低“粒子数量”</p>
 						</article>
+						<article id="fps">
+							<h3><a href="#fps" target="_self">帧数过低</a></h3>
+							<p>见<a href="#vram" target="_self">建模闪烁</a>。</p>
+						</article>
 						<article id="intro">
-							<h3>序章牢房中文档不刷新</h3>
+							<h3><a href="#intro" target="_self">序章牢房中文档不刷新</a></h3>
 							<p>下载<b>第二版</b>或更新的汉化版</p>
 						</article>
 						<article id="gxgraphics">
-							<h3>运行错误“无法创建gxGraphics实例”（Unable to create a gxGraphics instance）</h3>
+							<h3><a href="#gxgraphics" target="_self">运行错误“无法创建gxGraphics实例”（Unable to create a gxGraphics instance）</a></h3>
 							<p>- 将游戏分辨率设置为<b>640x480</b>至<b>1920x1080</b>之间的值</p>
 							<p>- 下载<b>第二版</b>或更新的汉化版</p>
+						</article>
+						<article id="3dscene">
+							<h3><a href="#3dscene" target="_self">运行错误“无法创建3D场景”（Unable to create 3D Scene）</a></h3>
+							<p>- 以管理员身份运行</p>
+							<p>- 设置兼容模式为Windows XP (Service Pack 3)</p>
+							<p>- 禁用集成显卡</p>
 						</article>
 					</div>
 					<br class="clearfix" />
 				</div>
 				<div id="sidebar2">
-				
 					<div class="box" align="center" >
 						<h3>链接</h3>
 						
